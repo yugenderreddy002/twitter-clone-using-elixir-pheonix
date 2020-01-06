@@ -1,0 +1,78 @@
+
+	<div class="dashboardPart"> 
+		<div align="left">
+					<a href="http://localhost:4000/" id="btnLogOut" style="text-align:right">Log Out</a> 
+		</div> 
+
+			<header>
+				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+				<div class="bgimg" style="background: rgb(0, 172, 237);width:830px;"><img src="../images/bird.png" style="height:105px;width:130px;text-align: right">
+					
+					</b><h1 style="padding-left: 4cm;font-family: Arial;display: inline-block;font-weight: 900;size:120px;color:white">Twitter Clone</h1>
+				</div>
+			</header>
+
+		<div class="dash" style="background: rgb(0, 172, 237);">
+				<div class="panel right" style="text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+					<center><label><b><h3 style="display: inline-block;font-weight: 700">Post a Tweet!</h3></b></center>
+							<i><center/><input id="tweetContent" size=83 placeholder="Your tweet goes here.." type="text"></i>
+							<button id="btnTweet">Tweet!</button></label>
+				</div>
+				</br>
+				<div id="tweets" style="text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+						<center/><h3 class="font1">Live Tweets!</h3>
+						<div id='tweet-list' class='row' style="background: white;">
+						</div>
+						<input type="submit" id="btnRetweet" value="Retweet this!">					
+				</div>
+
+				<div class="box" style="text-align: left;display: inline-block;background: #55ACEE;">
+					<div style="text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+						<h3 class="font1"style="font-weight: 600">Subscribe! <a class="fa fa-twitter"></a></h3>
+						<input id="username2" placeholder = "Username" style="display: inline-block;width: 300px;"type="text">
+						<button id="btnFollow">Follow</button>
+
+						</br> </br>
+					
+					<div>
+					<i><div id="followsArea" class ='mentions-list' style="width: 380px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" >Subscriptions!!</div></i>
+					</div>
+			</div>
+				</div>
+
+					<div class="box" style="text-align: left;width: 370px;background: #55ACEE;">
+						<div style="text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto;">
+								<label><h3 class="font2" style="color:white;margin-top: 25px;">Query Your Tweets!  <a><img src="../images/query.jpg" style="height:40px;width:60px"></a></h3>
+								</br>
+								<button id="btnQueryTweets">Query Tweets</button>
+								</br></br>
+								</label>
+							<i><div id="queryArea" class ='mentions-list' style = "width: 310px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" >My News Feed!</div></i>
+				
+						</div>
+
+					</div>
+				<div class="mentionshashtagspart" style="display:inline-block;width:820px;background: #55ACEE;text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+					<div style="text-align: left">
+						<label><h4 class="font1";style="font-weight: 600">Search by Hashtag</h4>
+								<input id="hashtag" style="width:650px" placeholder = "#HashtagsHere" type="text">
+								</br></br>
+								<button id="btnhashtag">Search!</button></label>
+					</div>
+					<i><div id= "hashtagArea" style="width: 710px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" class='mentions-list'>Hashtags</div></i>
+
+				</div>
+
+				<div class="mentionshashtagspart" style="top:0px;bottom:0px;display:inline-block;width:820px;position: relative;background: #55ACEE;text-align :left; border: 5px solid grey;border-style: ridge;padding: 20px;margin: 0 auto">
+					<div style="position: relative;text-align: left;">
+						<label><h4 class="font1">Get My Mentions!</h4>
+							<button id="btnMyMentions">Get my Mentions</button>
+							</br>
+						</label>
+					</div>
+					<i><div id="mentionsArea" class ='mentions-list' style="width: 710px;margin-bottom: 0px;margin-top: 0px;height:120px;background-color:white;" >My Mentions!</div>
+
+				</div>
+		</div>
+</div>

@@ -1,0 +1,25 @@
+
+<h1 style = "font: 'Times'; font-weight: bold;font-size: 200%"><center>Twitter Clone</center></h1>
+	<div>
+		<div>
+			<div class="signupPart">
+				<center><h4><b/>New to Twitter? Sign Up here!</h4>
+				<p>
+						<input id="new_username" placeholder = "Username" type="text"><br/>
+						<br/><input id="new_password" placeholder = "*******" type="password"><br/>
+						<br/><input id="signup" type="submit" value="Create Account">
+				</p>
+				</center>
+			</div>
+		</div>
+	</div>
+	</br>
+		<div class = "signupPart">
+			<center><h4><b/>Already a member? Log In here!</h4>
+			<div id='unlog' class='row'></div>
+				<input id="username" placeholder = "Username" type="text"><br/>
+				<br/><input id="password" placeholder = "*******" type="password"><br/>
+				<br/><button id="signin">Sign In</button>
+			</center>
+		</div>
+
